@@ -42,7 +42,30 @@ ul{
     list-style-type: none;
 
 }
+h1{
+    font-family: var(--Lexend);
+    font-size: 1.5rem;
+}
 
+
+h2{
+    font-family: var(--Lexend);
+
+}
+
+h3{
+    font-family: var(--Abel);
+    font-size: 2.5rem;
+}
+.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family: var(--Livvic);
+    cursor: pointer;
+}
 
 /*------------X----------Global Classes----------------X----------*/
 
@@ -119,8 +142,44 @@ ul{
 }
 
 
-/*-----x-----navbar------x-----*/
+/*------------x-----------navbar-----------x---------*/
 
+
+/*-------------------Main Content---------------------*/
+
+/*------------Site Title-------------*/
+.site-title{
+    background: url('../assets/peace_article.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    height:110vh;
+    display: flex;
+    justify-content: center;
+}
+
+.site-background{
+    padding-top: 10rem;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    color: var(--white);
+
+}
+h1,h2{
+    margin: 0.3rem;;
+}
+.btn{
+    margin: 1.8rem;
+
+}
+.btn:hover{
+    background: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+}
+
+/*------x------Site Title-------x------*/
+
+/*-----------x--------Main Content-------------x--------*/
 
 
 /*       Viewport less than or equal to 750px         */
